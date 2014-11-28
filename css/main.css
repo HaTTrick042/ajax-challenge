@@ -3,6 +3,7 @@
 body {
     font-family: 'Ubuntu', 'Helvetica Neue', 'Helvetica', sans-serif;
     font-weight: 400;
+    background-color: #9acfea;
 }
 
 .product-picture {
@@ -10,4 +11,17 @@ body {
     height: 130px;
     margin-right: 10px;
 }
+
+textarea {
+    border: none;
+}
+
+#noComment, .hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 
